@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "procrastibar"
+version = "0.1.0"
+description = "A progress bar library that tells stories with emojis"
+authors = [{name = "nilp0inter"}]
+dependencies = ["tqdm"]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/nilp0inter/procrastibar"
